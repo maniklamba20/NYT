@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C76DA8F1F6B27A500068915 /* GenreBooksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C76DA8E1F6B27A500068915 /* GenreBooksVC.swift */; };
+		9C76DA911F6C5D9300068915 /* GenreBookCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C76DA901F6C5D9300068915 /* GenreBookCustomCell.swift */; };
+		9C76DA961F702D5F00068915 /* MoviesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C76DA951F702D5F00068915 /* MoviesVC.swift */; };
+		9C76DA981F704F5300068915 /* MovieCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C76DA971F704F5300068915 /* MovieCustomCell.swift */; };
+		9C79BDE11F71885A003BB16E /* ArticleCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C79BDE01F71885A003BB16E /* ArticleCustomCell.swift */; };
+		9C79BDE31F718A56003BB16E /* ArticleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C79BDE21F718A56003BB16E /* ArticleVC.swift */; };
+		9C79BDE51F721390003BB16E /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C79BDE41F721390003BB16E /* UIHelper.swift */; };
 		9C84B3C41F672190003AFB09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C84B3C31F672190003AFB09 /* AppDelegate.swift */; };
 		9C84B3C61F672190003AFB09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C84B3C51F672190003AFB09 /* ViewController.swift */; };
 		9C84B3C91F672190003AFB09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C84B3C71F672190003AFB09 /* Main.storyboard */; };
@@ -14,6 +21,14 @@
 		9C84B3CE1F672190003AFB09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C84B3CC1F672190003AFB09 /* LaunchScreen.storyboard */; };
 		9C84B3D91F672190003AFB09 /* NYTCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C84B3D81F672190003AFB09 /* NYTCodeTests.swift */; };
 		9C84B3E41F672190003AFB09 /* NYTCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C84B3E31F672190003AFB09 /* NYTCodeUITests.swift */; };
+		9C95C9701F69C43200E19D19 /* BookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C95C96F1F69C43200E19D19 /* BookVC.swift */; };
+		9C95C9721F69D2E200E19D19 /* BookCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C95C9711F69D2E200E19D19 /* BookCustomCell.swift */; };
+		9CA0A0A51F67297A00E42A1E /* URLConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0A0A41F67297A00E42A1E /* URLConstants.swift */; };
+		9CA0A0A71F673F5800E42A1E /* Engravers Old English Normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CA0A0A61F673F5800E42A1E /* Engravers Old English Normal.ttf */; };
+		9CA0A0A91F6831C900E42A1E /* TopStoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0A0A81F6831C900E42A1E /* TopStoriesVC.swift */; };
+		9CA0A0AF1F686AAA00E42A1E /* TopStoryCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0A0AE1F686AAA00E42A1E /* TopStoryCustomCell.swift */; };
+		9CAF17A61F6991AC00415E78 /* ReadStoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAF17A51F6991AC00415E78 /* ReadStoryVC.swift */; };
+		BDCB4DCAFC001122B6902F01 /* Pods_NYTCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DEF06BDD2F5F26CF2BD16A /* Pods_NYTCode.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26DEF06BDD2F5F26CF2BD16A /* Pods_NYTCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYTCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		551D94011A117FA2BA1727EE /* Pods-NYTCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NYTCode/Pods-NYTCode.debug.xcconfig"; sourceTree = "<group>"; };
+		696714F079ACD4E6D803D0C4 /* Pods_NYTCodeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYTCodeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C76DA8E1F6B27A500068915 /* GenreBooksVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreBooksVC.swift; sourceTree = "<group>"; };
+		9C76DA901F6C5D9300068915 /* GenreBookCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreBookCustomCell.swift; sourceTree = "<group>"; };
+		9C76DA951F702D5F00068915 /* MoviesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoviesVC.swift; path = ../MoviesVC.swift; sourceTree = "<group>"; };
+		9C76DA971F704F5300068915 /* MovieCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCustomCell.swift; sourceTree = "<group>"; };
+		9C79BDE01F71885A003BB16E /* ArticleCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleCustomCell.swift; sourceTree = "<group>"; };
+		9C79BDE21F718A56003BB16E /* ArticleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleVC.swift; sourceTree = "<group>"; };
+		9C79BDE41F721390003BB16E /* UIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		9C84B3C01F672190003AFB09 /* NYTCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYTCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C84B3C31F672190003AFB09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C84B3C51F672190003AFB09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +72,15 @@
 		9C84B3DF1F672190003AFB09 /* NYTCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYTCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C84B3E31F672190003AFB09 /* NYTCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTCodeUITests.swift; sourceTree = "<group>"; };
 		9C84B3E51F672190003AFB09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C95C96F1F69C43200E19D19 /* BookVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookVC.swift; sourceTree = "<group>"; };
+		9C95C9711F69D2E200E19D19 /* BookCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCustomCell.swift; sourceTree = "<group>"; };
+		9CA0A0A41F67297A00E42A1E /* URLConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLConstants.swift; sourceTree = "<group>"; };
+		9CA0A0A61F673F5800E42A1E /* Engravers Old English Normal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Engravers Old English Normal.ttf"; sourceTree = "<group>"; };
+		9CA0A0A81F6831C900E42A1E /* TopStoriesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopStoriesVC.swift; sourceTree = "<group>"; };
+		9CA0A0AE1F686AAA00E42A1E /* TopStoryCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopStoryCustomCell.swift; sourceTree = "<group>"; };
+		9CAF17A51F6991AC00415E78 /* ReadStoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadStoryVC.swift; sourceTree = "<group>"; };
+		BD1167614BB4D33E3D48F22A /* Pods-NYTCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-NYTCode/Pods-NYTCode.release.xcconfig"; sourceTree = "<group>"; };
+		C09A96D3DD7505CA5AD600A1 /* Pods_NYTCodeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYTCodeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDCB4DCAFC001122B6902F01 /* Pods_NYTCode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +109,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5ACE142DC67890AC73DA53B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26DEF06BDD2F5F26CF2BD16A /* Pods_NYTCode.framework */,
+				696714F079ACD4E6D803D0C4 /* Pods_NYTCodeTests.framework */,
+				C09A96D3DD7505CA5AD600A1 /* Pods_NYTCodeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88743DD7E79270F944F782D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				551D94011A117FA2BA1727EE /* Pods-NYTCode.debug.xcconfig */,
+				BD1167614BB4D33E3D48F22A /* Pods-NYTCode.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C76DA921F7026B100068915 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9C76DA951F702D5F00068915 /* MoviesVC.swift */,
+				9C76DA8E1F6B27A500068915 /* GenreBooksVC.swift */,
+				9C95C96F1F69C43200E19D19 /* BookVC.swift */,
+				9CA0A0A81F6831C900E42A1E /* TopStoriesVC.swift */,
+				9CAF17A51F6991AC00415E78 /* ReadStoryVC.swift */,
+				9C84B3C51F672190003AFB09 /* ViewController.swift */,
+				9C79BDE21F718A56003BB16E /* ArticleVC.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		9C76DA931F7026DF00068915 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				9CA0A0AE1F686AAA00E42A1E /* TopStoryCustomCell.swift */,
+				9C95C9711F69D2E200E19D19 /* BookCustomCell.swift */,
+				9C76DA901F6C5D9300068915 /* GenreBookCustomCell.swift */,
+				9C76DA971F704F5300068915 /* MovieCustomCell.swift */,
+				9C79BDE01F71885A003BB16E /* ArticleCustomCell.swift */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		9C76DA941F7026F400068915 /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				9CA0A0A41F67297A00E42A1E /* URLConstants.swift */,
+				9C79BDE41F721390003BB16E /* UIHelper.swift */,
+			);
+			name = HelperClasses;
+			sourceTree = "<group>";
+		};
 		9C84B3B71F672190003AFB09 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +170,8 @@
 				9C84B3D71F672190003AFB09 /* NYTCodeTests */,
 				9C84B3E21F672190003AFB09 /* NYTCodeUITests */,
 				9C84B3C11F672190003AFB09 /* Products */,
+				88743DD7E79270F944F782D6 /* Pods */,
+				5ACE142DC67890AC73DA53B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +189,10 @@
 			isa = PBXGroup;
 			children = (
 				9C84B3C31F672190003AFB09 /* AppDelegate.swift */,
-				9C84B3C51F672190003AFB09 /* ViewController.swift */,
+				9C76DA941F7026F400068915 /* HelperClasses */,
+				9C76DA931F7026DF00068915 /* CustomCells */,
+				9C76DA921F7026B100068915 /* ViewController */,
+				9CA0A0A61F673F5800E42A1E /* Engravers Old English Normal.ttf */,
 				9C84B3C71F672190003AFB09 /* Main.storyboard */,
 				9C84B3CA1F672190003AFB09 /* Assets.xcassets */,
 				9C84B3CC1F672190003AFB09 /* LaunchScreen.storyboard */,
@@ -132,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C84B3E81F672190003AFB09 /* Build configuration list for PBXNativeTarget "NYTCode" */;
 			buildPhases = (
+				0D8771F3544C748B141E856C /* [CP] Check Pods Manifest.lock */,
 				9C84B3BC1F672190003AFB09 /* Sources */,
 				9C84B3BD1F672190003AFB09 /* Frameworks */,
 				9C84B3BE1F672190003AFB09 /* Resources */,
+				E5080FD605426B34F1B66B14 /* [CP] Embed Pods Frameworks */,
+				C74BE35061AD41173B6F596A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,6 +334,7 @@
 			files = (
 				9C84B3CE1F672190003AFB09 /* LaunchScreen.storyboard in Resources */,
 				9C84B3CB1F672190003AFB09 /* Assets.xcassets in Resources */,
+				9CA0A0A71F673F5800E42A1E /* Engravers Old English Normal.ttf in Resources */,
 				9C84B3C91F672190003AFB09 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,13 +355,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D8771F3544C748B141E856C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NYTCode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C74BE35061AD41173B6F596A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NYTCode/Pods-NYTCode-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5080FD605426B34F1B66B14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NYTCode/Pods-NYTCode-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NYTCode/Pods-NYTCode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9C84B3BC1F672190003AFB09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CAF17A61F6991AC00415E78 /* ReadStoryVC.swift in Sources */,
+				9CA0A0A51F67297A00E42A1E /* URLConstants.swift in Sources */,
+				9C76DA961F702D5F00068915 /* MoviesVC.swift in Sources */,
+				9C79BDE31F718A56003BB16E /* ArticleVC.swift in Sources */,
 				9C84B3C61F672190003AFB09 /* ViewController.swift in Sources */,
+				9CA0A0AF1F686AAA00E42A1E /* TopStoryCustomCell.swift in Sources */,
+				9CA0A0A91F6831C900E42A1E /* TopStoriesVC.swift in Sources */,
+				9C95C9721F69D2E200E19D19 /* BookCustomCell.swift in Sources */,
+				9C79BDE51F721390003BB16E /* UIHelper.swift in Sources */,
+				9C79BDE11F71885A003BB16E /* ArticleCustomCell.swift in Sources */,
 				9C84B3C41F672190003AFB09 /* AppDelegate.swift in Sources */,
+				9C76DA911F6C5D9300068915 /* GenreBookCustomCell.swift in Sources */,
+				9C76DA8F1F6B27A500068915 /* GenreBooksVC.swift in Sources */,
+				9C95C9701F69C43200E19D19 /* BookVC.swift in Sources */,
+				9C76DA981F704F5300068915 /* MovieCustomCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +580,7 @@
 		};
 		9C84B3E91F672190003AFB09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 551D94011A117FA2BA1727EE /* Pods-NYTCode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K76J9YS22W;
@@ -428,6 +594,7 @@
 		};
 		9C84B3EA1F672190003AFB09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD1167614BB4D33E3D48F22A /* Pods-NYTCode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K76J9YS22W;
@@ -516,6 +683,7 @@
 				9C84B3EA1F672190003AFB09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C84B3EB1F672190003AFB09 /* Build configuration list for PBXNativeTarget "NYTCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +692,7 @@
 				9C84B3ED1F672190003AFB09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C84B3EE1F672190003AFB09 /* Build configuration list for PBXNativeTarget "NYTCodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +701,7 @@
 				9C84B3F01F672190003AFB09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
